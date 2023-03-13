@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  body{
+    background-color: #E7DFD8;
+    font-family: 'Roboto', sans-serif;
+  }
+    
+  .menu ul{
+    list-style: none;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  .menu ul li{
+    display: inline;
+    position: relative;
+  }
+
+  .menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background 0.3s;
+    color: black;
+    background-color: #E7DFD8;
+  }
+
+  .menu ul li a:hover{
+    background-color: #bc8f8f;
+  }
+
+  /*sub menu*/
+  .menu ul ul{
+    display: none;
+    position: absolute;
+    left: 0;
+  }
+
+  .menu ul li:hover ul{
+    display: block;
+  }
+
+  .menu ul ul li a{
+    display: block;
+  }
+
+  .menu input{
+    font-size: 10px;
+  }
+
+  .buscar{
+    float: left;
+    width: 30%;
+    height: 50px;
+  }
+
+  .buscar img{
+    height: 8px;
+  }
+
+  .container{
+    border: #bc8f8f 2px solid ;
+    display: flex;
+    margin: 25px;
+  }
+
+  .containergrade{
+    display: block;
+    border: 1px red solid;
+    width: 200px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .info{
+/*     border: orange 2px solid;
+ */    margin: 20px;
+    height: 405px;
+    width: 495px;
+    align-content: flex-end;
+  }
+
+  .icon{
+    background-color: aquamarine; 
+  }
+
+  .info img{
+    width: 18px;
+    height: 18px;
+    margin: 2px;
+  }
+
+  .foto{
+/*     border: green 2px solid; */
+    margin: 20px;
+    width: 500px;
+  }
+
+  .foto img{
+    width: 304px;
+    height: 405px;
+    align-items: center;
+  }
+  
