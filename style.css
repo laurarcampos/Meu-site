@@ -5,57 +5,28 @@
   }
 
   body{
-    background-color: #E7DFD8;
+    background-color: #E7DFD8 !important;
     font-family: 'Roboto', sans-serif;
   }
 
-  .menu ul{
-    list-style: none;
-    font-size: 10px;
-    font-weight: bold;
-    margin: 5px;
-  }
-
-  .menu ul li{
-    display: inline;
-    position: relative;
-  }
-
-  .menu ul li a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    transition: background 0.3s;
-    color: black;
+  header{
     background-color: #E7DFD8;
-    border-radius: 5px;
+  }
+  .navbar ul li a{
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
   }
 
-  .menu ul li a:hover{
+  .navbar ul li a:hover{
     background-color: #bc8f8f;
   }
 
-  /*sub menu*/
-  .menu ul ul{
-    display: none;
-    position: absolute;
-    left: 0;
-    width: 100%;
-    text-align: center;
+  .dropdown-menu{
+    background-color: #E7DFD8 !important;
   }
-
-  .menu ul li:hover ul{
-    display: block;
-  }
-
-  .menu ul ul li a{
-    display: block;
-  }
-
-  .menu input{
-    font-size: 10px;
-  }
-
+  
   .container{
     border: #bc8f8f 2px solid ;
     display: flex;
