@@ -109,9 +109,11 @@
   .card{
     margin: 10px;
     align-items: stretch;
+    color: black;
   }
+
   .card-body{
-    font-family: var(--font-family);
+    font-family: var(--font-family)!;
     background-color: #faf0e6;
     border: var(--hover-color) 2px solid;
     border-top-left-radius: 5px;
@@ -136,5 +138,4 @@
 
   .card-footer{
     background-color: var(--hover-color) !important;
-    justify-content: space-between;
   }
