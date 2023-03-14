@@ -8,7 +8,7 @@
     background-color: #E7DFD8;
     font-family: 'Roboto', sans-serif;
   }
-    
+
   .menu ul{
     list-style: none;
     font-size: 10px;
@@ -28,6 +28,7 @@
     transition: background 0.3s;
     color: black;
     background-color: #E7DFD8;
+    border-radius: 5px;
   }
 
   .menu ul li a:hover{
@@ -39,6 +40,8 @@
     display: none;
     position: absolute;
     left: 0;
+    width: 100%;
+    text-align: center;
   }
 
   .menu ul li:hover ul{
@@ -53,20 +56,12 @@
     font-size: 10px;
   }
 
-  .buscar{
-    float: left;
-    width: 30%;
-    height: 50px;
-  }
-
-  .buscar img{
-    height: 8px;
-  }
-
   .container{
     border: #bc8f8f 2px solid ;
     display: flex;
-    margin: 25px;
+    margin: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .containergrade{
@@ -78,32 +73,37 @@
   }
 
   .info{
-/*     border: orange 2px solid;
- */    margin: 20px;
-    height: 405px;
-    width: 495px;
-    align-content: flex-end;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    height: 40vh;
   }
-
+  
   .icon{
-    background-color: aquamarine; 
+    width: 100%;
+    margin: 5px;
   }
 
-  .info img{
+  .icon img{
     width: 18px;
     height: 18px;
     margin: 2px;
   }
 
+  span{
+    font-size: 21px;
+    margin: 5px;
+    text-align: justify;
+  }
+
   .foto{
-/*     border: green 2px solid; */
     margin: 20px;
-    width: 500px;
+    width: 309px;
   }
 
   .foto img{
-    width: 304px;
-    height: 405px;
-    align-items: center;
+    width: 90%;
   }
   
