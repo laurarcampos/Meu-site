@@ -52,25 +52,26 @@
 
   }
 
-  .containergrade{
-    display: flex;
-    border: var(--hover-color) 2px solid;
-    font-size: 10px;
-    margin: 10px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    align-content: center;
-  }
-
   .info{
     width: 450px;
     display: flex;
     flex-direction: column;
     align-items: start;
     text-align: start;
-    height: 40vh;
+    text-align: justify;
+    font-family: var(--font-family);
   }
+
+  .info p{
+    font-size: 40px;
+    text-decoration: underline 1.4px;
+  }
+
+  .info span{
+    margin: 5px;
+    font-size: 19px;
+  }
+
 
   .links{
     width: 100%;
@@ -83,11 +84,6 @@
     margin: 2px;
   }
 
-  span{
-    margin: 5px;
-    text-align: justify;
-    font-family: var(--font-family);
-  }
 
   .foto{
     margin: 20px;
@@ -106,10 +102,12 @@
 
 /*   Grade horária */
 
-  .card{
+  #card{
     margin: 10px;
     align-items: stretch;
     color: black;
+    background-color: var(--bg-color);
+    border: none; 
   }
 
   .card-body{
