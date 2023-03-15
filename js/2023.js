@@ -1,7 +1,7 @@
 function createDisciplina(dia, hora, nome, descricao, prof, semestre){
     return `
-    <div class="card" id="card">  
-    <div class="card-body">
+        <div class="card" id="card">  
+        <div class="card-body">
         <h6 class="card-subtitle mb-2 text-muted">${dia} ${hora}</h6>
         <h5 class="card-title">${nome}</h5>
         <p class="card-text">
@@ -16,7 +16,6 @@ function createDisciplina(dia, hora, nome, descricao, prof, semestre){
     `
 }
 
-let delay = -0.3
 
 document.querySelector("#card").innerHTML =
 
