@@ -17,8 +17,8 @@ document.querySelector("#navbar").innerHTML = `
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                       <a class="dropdown-item" href="tecnologias.html">Tecnologias para programação web</a>
                       <a class="dropdown-item" href="auditoria.html">Auditoria e segurança de sistemas</a>
-                      <a class="dropdown-item" href="redes.html">Redes de computadores II</a>
                       <a class="dropdown-item" href="software.html">Software livre</a>
+                      <a class="dropdown-item" href="redes.html">Redes de computadores II</a>
                       <a class="dropdown-item" href="governanca.html">Governaça e tecnologia da informação</a>
                       <a class="dropdown-item" href="qualidade.html">Qualidade e desenvolvimento de software</a>
                     </div>

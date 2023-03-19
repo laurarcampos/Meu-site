@@ -78,15 +78,7 @@
     margin: 5px;
   }
 
-  .links img{
-    width: 18px;
-    height: 18px;
-    margin: 2px;
-  }
-
-
   .foto{
-    margin: 20px;
     width: 309px;
   }
 
@@ -98,12 +90,19 @@
     color: black;
     padding: 3px;
   }
-  
 
-/*   Grade horária */
+
+/* Disciplinas */
+
+  .row{
+    justify-content: space-around;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    align-content: stretch;
+  }
 
   #card{
-    margin: 10px;
     align-items: stretch;
     color: black;
     background-color: var(--bg-color);
@@ -135,7 +134,7 @@
   }
 
   .card-footer{
-    background-color: var(--hover-color) !important;
+    background-color: var(--hover-color) !important;  
   }
 
   /*   Grade horária */
