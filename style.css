@@ -137,3 +137,17 @@
   .card-footer{
     background-color: var(--hover-color) !important;
   }
+
+  /*   Grade horária */
+
+  .table-responsive{
+    width: 100%;
+    margin: 10px;
+  }
+
+  tr  {
+    border: var(--hover-color) 2px solid !important;
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: black;
+  }
