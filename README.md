@@ -33,9 +33,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Cada disciplina em uma página
-Links para as disciplinas em um menu
-Quadro de horários
+- Cada disciplina em uma página
+- Links para as disciplinas em um menu
+- Quadro de horários
 
 
 - [Acesse o repositório finalizado](https://github.com/laurarcampos/Meu-site)
