@@ -16,7 +16,11 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src="./img/index.png" width="100%">
+  <img alt="projeto Meu-site" src="./img/index.png" width="100%">
+</p>
+
+<p align="center">
+  <img alt="projeto Meu-site" src="./img/mobile.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -33,5 +37,7 @@ Cada disciplina em uma página
 Links para as disciplinas em um menu
 Quadro de horários
 
-- [Acesse o projeto finalizado, online](https://github.com/laurarcampos/Meu-site)
+
+- [Acesse o repositório finalizado](https://github.com/laurarcampos/Meu-site)
+- [Acesse o projeto finalizado, online](https://laurarcampos.github.io/Meu-site/)
 
